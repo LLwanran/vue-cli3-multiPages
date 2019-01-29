@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
+  font-size: 36px;
+  color: #ff9b69;
+  font-weight: 700;
+}
+
+.md-example-child {
+  box-sizing: border-box;
+  padding: 15px;
+  &.md-example-child-md-activity-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 15px;
+    .md-activity-indicator-svg {
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .md-activity-indicator-text {
+      font-size: 28px !important;
+    }
+  }
+  &.md-example-child-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 194px;
+    .md-tag {
+      margin-right: 12px;
+    }
+  }
+  .md-button {
+    margin-bottom: 10px;
+  }
+}

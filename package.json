@@ -1,0 +1,32 @@
+{
+  "name": "vue-cli3-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "test": "vue-cli-service build --mode test",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "analyze": "npm_config_report=true npm run build"
+  },
+  "dependencies": {
+    "fastclick": "^1.0.6",
+    "mand-mobile": "^1.6.8",
+    "normalize.css": "^8.0.1",
+    "vue": "^2.5.22",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.0.0-rc.11",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-plugin-import": "^1.11.0",
+    "compression-webpack-plugin": "^1.0.0",
+    "node-sass": "^4.9.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.22",
+    "webpack-bundle-analyzer": "^3.0.3"
+  }
+}
