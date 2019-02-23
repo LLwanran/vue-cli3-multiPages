@@ -1,4 +1,4 @@
-# vue-cli3 scaffold
+# vue-cli3 Boilerplate
 vue-cli3多页应用配置
 
 ## Project setup
